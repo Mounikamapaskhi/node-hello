@@ -2,7 +2,7 @@ const port = process.env.PORT || 8080;
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => res.send('Hello World! Welcome to rehdat openshift'))
+app.get('/', (req, res) => res.send('Hello World! Welcome to RedHat Openshift'))
 
 app.get('/readiness', (req, res) => res.send('Ready !!'))
 
